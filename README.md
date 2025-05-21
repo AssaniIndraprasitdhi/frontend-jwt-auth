@@ -1,4 +1,4 @@
-# 🔐 Frontend JwtAuthDemo
+# Frontend JwtAuthDemo
 
 Frontend สำหรับระบบ **JWT Authentication** ที่เชื่อมต่อกับ Backend [JwtAuthDemo API]([https://github.com/AssaniIndraprasitdhi/backend-jwt-auth.git]) โดยใช้ React + Vite พร้อมจัดการการเข้าสู่ระบบและเก็บ Token ด้วย `localStorage` หรือ `httpOnly Cookie`
 
