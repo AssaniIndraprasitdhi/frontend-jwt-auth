@@ -1,29 +1,25 @@
-# Frontend JwtAuthDemo
+# Frontend JwtAuthDemo (Vue 3 + TypeScript)
 
-Frontend สำหรับระบบ **JWT Authentication** ที่เชื่อมต่อกับ Backend [JwtAuthDemo API]([https://github.com/AssaniIndraprasitdhi/backend-jwt-auth.git]) โดยใช้ React + Vite พร้อมจัดการการเข้าสู่ระบบและเก็บ Token ด้วย `localStorage` หรือ `httpOnly Cookie`
+ระบบ Login ด้วย JWT โดยใช้ Vue 3 + Vite + Pinia พร้อมจัดการ Token และ Route ป้องกัน
 
-## 🚀 Features
+## Features
 
-- หน้า **Login** และ **Register**
-- เชื่อมต่อ API JWT Authentication
-- บันทึก JWT Token และตรวจสอบสิทธิ์ผู้ใช้
-- Route ป้องกันสำหรับผู้ที่ login แล้วเท่านั้น
-- รองรับการเพิ่ม Role, Profile, Refresh Token ในอนาคต
+- 🔐 Login / Register
+- 🛡️ Protected Route
+- 🎫 JWT Auth (localStorage หรือ httpOnly Cookie)
+- ✅ รองรับระบบ Role / Refresh Token
 
-## 🛠 Tech Stack
+## Tech Stack
 
-- **React 18**
-- **Vite**
-- **Tailwind CSS** (หรือ DaisyUI/ShadCN ตามที่คุณเลือก)
-- **React Hook Form + Zod** (สำหรับ Form Validation)
-- **Axios** (สำหรับเรียก API)
-- **React Router DOM** (สำหรับจัดการ Routing)
-- **Context API** (สำหรับเก็บ User State)
+- Vue 3 + Vite
+- TypeScript
+- TailwindCSS
+- Vue Router 4
+- Pinia
+- Axios
 
-## 📦 Getting Started
-
-### 1. Clone Repository
+## Getting Started
 
 ```bash
-git clone https://github.com/AssaniIndraprasitdhi/frontend-jwt-auth.git
-cd frontend-jwt-auth
+npm install
+npm run dev
