@@ -4,10 +4,10 @@
 
 ## Features
 
-- 🔐 Login / Register
-- 🛡️ Protected Route
-- 🎫 JWT Auth (localStorage หรือ httpOnly Cookie)
-- ✅ รองรับระบบ Role / Refresh Token
+- Login / Register
+- Protected Route
+- JWT Auth (localStorage หรือ httpOnly Cookie)
+- รองรับระบบ Role / Refresh Token
 
 ## Tech Stack
 
