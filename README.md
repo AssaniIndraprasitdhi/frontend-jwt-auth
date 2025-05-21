@@ -4,11 +4,11 @@ Frontend สำหรับระบบ **JWT Authentication** ที่เช�
 
 ## 🚀 Features
 
-- ✅ หน้า **Login** และ **Register**
-- 🔑 เชื่อมต่อ API JWT Authentication
-- 🔒 บันทึก JWT Token และตรวจสอบสิทธิ์ผู้ใช้
-- 🔐 Route ป้องกันสำหรับผู้ที่ login แล้วเท่านั้น
-- ⚙️ รองรับการเพิ่ม Role, Profile, Refresh Token ในอนาคต
+- หน้า **Login** และ **Register**
+- เชื่อมต่อ API JWT Authentication
+- บันทึก JWT Token และตรวจสอบสิทธิ์ผู้ใช้
+- Route ป้องกันสำหรับผู้ที่ login แล้วเท่านั้น
+- รองรับการเพิ่ม Role, Profile, Refresh Token ในอนาคต
 
 ## 🛠 Tech Stack
 
